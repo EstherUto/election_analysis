@@ -6,7 +6,7 @@
 - [Election Audit](#election-audit)
   * [Votes by County](#votes-by-county)
   * [Votes by Candidate](#votes-by-candidate)
-  * [Election Results](#election-results)
+  * [Text Output](#text-output)
 - [Election Audit Summary](#election-audit-summary)
 
 ## Overview of Election Audit
