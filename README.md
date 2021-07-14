@@ -2,14 +2,12 @@
 
 ## Table of Contents
 
+- [Overview of Election Audit](#overview-of-election-audit)
 - [Election Audit](#election-audit)
-  * [Table of Contents](#table-of-contents)
-  * [Overview of Election Audit](#overview-of-election-audit)
-  * [Election Audit](#election-audit-1)
-    + [Votes by County](#votes-by-county)
-    + [Votes by Candidate](#votes-by-candidate)
-    + [Election Results](#election-results)
-  * [Election Audit Summary](#election-audit-summary)
+  * [Votes by County](#votes-by-county)
+  * [Votes by Candidate](#votes-by-candidate)
+  * [Election Results](#election-results)
+- [Election Audit Summary](#election-audit-summary)
 
 ## Overview of Election Audit
 
