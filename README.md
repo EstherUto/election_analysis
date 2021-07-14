@@ -6,7 +6,7 @@
 - [Election Audit](#election-audit)
   * [Votes by County](#votes-by-county)
   * [Votes by Candidate](#votes-by-candidate)
-  * [Text Output](#text-output)
+  * [Election Results](#election-results)
 - [Election Audit Summary](#election-audit-summary)
 
 ## Overview of Election Audit
@@ -38,7 +38,7 @@ Prior to starting the audit, the goals for the code were noted at the beginning,
 # -------------------------------------------------
 ```
 
-The first course of action was to determine the total amount of votes casted for the election. Python found the total amounts of votes to be 369,711.
+The first course of action was to determine the total amount of votes casted for the election. Python found the total amounts of votes to be `369,711`.
 
 ### Votes by County
 
@@ -50,9 +50,19 @@ The total votes by county and it's percentage in respect to total votes are show
 | Denver  | 306,055 | 82.8% |
 | Arapahoe | 24,801 | 6.7% |
 
+The audit showed **Denver County** had a significant voter turnout almost overshadowing the other counties with over 80% of the votes coming from that county. This maybe due to many factors such as population size, but it is obvious the people of Denver were the true deciding vote for the elections.
+
 ### Votes by Candidate
 
+The total votes by candidate and their percentage vote in respect to total votes are shown in the table below
 
+| Candidate Name | Candidate Votes | % Vote |
+| -------------- | --------------- | ------ |
+| Charles Casper Stockham | 85,213 | 23.0% |
+| **Diana DeGette**  | 272,892 | 73.8% |
+| Raymon Anthony Doane | 11,606 | 3.1% |
+
+The table shows the obvious winner of the election to be **Candidate Diana DeGette** who won by a landslide with over 70% of the votes.
 
 ### Text Output
 
