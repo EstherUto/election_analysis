@@ -45,7 +45,7 @@ The first course of action was to determine the total amount of votes casted for
 The total votes by county and it's percentage in respect to total votes are shown in the table below
 
 | County Name | County Votes | % Vote |
-| ----------- | ------------ | ------ |
+| ----------- | :----------: | ------ |
 | Jefferson | 38,855 | 10.5% |
 | Denver  | 306,055 | 82.8% |
 | Arapahoe | 24,801 | 6.7% |
@@ -57,7 +57,7 @@ The audit showed **Denver County** had a significant voter turnout almost oversh
 The total votes by candidate and their percentage vote in respect to total votes are shown in the table below
 
 | Candidate Name | Candidate Votes | % Vote |
-| -------------- | --------------- | ------ |
+| -------------- | :-------------: | ------ |
 | Charles Casper Stockham | 85,213 | 23.0% |
 | Diana DeGette  | 272,892 | 73.8% |
 | Raymon Anthony Doane | 11,606 | 3.1% |
