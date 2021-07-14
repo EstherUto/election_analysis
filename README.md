@@ -66,6 +66,7 @@ The table shows the obvious winner of the election to be **Candidate Diana DeGet
 
 ### Text Output
 
+The client requested the election results be outputted into a `.txt` file for those in management who may not have access to python. All outputs printed out into the terminal were also printed out into the `election_results.txt` which can be found in the `analysis` folder. For reader ease, the output has been provided as an image shown below.
 
 
 ## Election Audit Summary
