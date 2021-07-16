@@ -72,5 +72,47 @@ The client requested the election results be outputted into a `.txt` file for th
 
 ## Election Audit Summary
 
+Conduting election audit can be very tasking and time consuming. Fortunately, the code used for this particular election audit can be used for other election data. However, it is important that the following notes are taken into account to make use of the `PyPoll_Challenge`
 
+- It is **_very important_** the following code is at the top of the file:
+```
+import csv
+import os
+```
+- The election data file must be put in the `Resources` folder. The `Resources` folder should also be in the same folder the `PyPoll_Challenge.py` file, if not the code wouldn't run.
+    - It would be best practice to have the file with the raw data named `election_results.csv`. If not possible, please change the following from `election_results.csv` to whatever the name of the file that has the raw data is
+    ```
+    # Variable to load a file from a path.
+    file_to_load = os.path.join("Resources", "election_results.csv")
+    ```
+- The file used for this audit had **County name** in *index 1* (i.e. column 2) and **Candidate name** in *index 2* (i.e. column 3). If the new election data is not in this format, please make the proper changes to the following code.
+```
+# Print each row in the CSV file.
+for row in file_reader:
+.
+.
+.
+    # County name index
+        county_name = row[1]
+.
+.
+.
+    # Candidate name index
+        candidate_name = row[2]
+```
+- Please create an `analysis` folder in the same folder the `PyPoll_Challenge.py` file is in. This would help with the outpu showing the results. In the current code, it would be named `election_results.txt`.
+- If the election is done by state, everywhere `county` shows up in the code can be changed to `state` as long as the index is changes as per bullet point 3.
+    - It is important the following code should also be changed for the sake of the output
+    ```
+    # Output winning candidate
+    winning_county_summary = (
+    f"-------------------------\n"
+    f"Largest County Turnout: {winning_county}\n"
+    f"-------------------------\n")
+    print(winning_county_summary)
+    # Save winning candidate to text file
+    txt_file.write(winning_county_summary)
+    ```
+
+With this, the code should be of use for furture audits.
 
