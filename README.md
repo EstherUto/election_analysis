@@ -101,7 +101,7 @@ for row in file_reader:
         candidate_name = row[2]
 ```
 - Please create an `analysis` folder in the same folder the `PyPoll_Challenge.py` file is in. This would help with the outpu showing the results. In the current code, it would be named `election_results.txt`.
-- If the election is done by state, everywhere `county` shows up in the code can be changed to `state` as long as the index is changes as per bullet point 3.
+- If the election is done by state, everywhere `county` shows up in the code can be changed to `state` as long as the index is changed as per bullet point 3.
     - It is important the following code should also be changed for the sake of the output
     ```
     # Output winning candidate
