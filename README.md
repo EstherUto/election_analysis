@@ -72,7 +72,7 @@ The client requested the election results be outputted into a `.txt` file for th
 
 ## Election Audit Summary
 
-Conduting election audit can be very tasking and time consuming. Fortunately, the code used for this particular election audit can be used for other election data. However, it is important that the following notes are taken into account to make use of the `PyPoll_Challenge`
+Conduting election audit can be very tasking and time consuming. Fortunately, the code used for this particular election audit can be used for other election data. However, it is important that the following notes are taken into account to make use of the `PyPoll_Challenge.py` file.
 
 - It is **_very important_** the following code is at the top of the file:
 ```
@@ -100,7 +100,7 @@ for row in file_reader:
     # Candidate name index
         candidate_name = row[2]
 ```
-- Please create an `analysis` folder in the same folder the `PyPoll_Challenge.py` file is in. This would help with the outpu showing the results. In the current code, it would be named `election_results.txt`.
+- Please create an `analysis` folder in the same folder the `PyPoll_Challenge.py` file is in. This would help with the output showing the results. In the current code, it would be named `election_results.txt`.
 - If the election is done by state, everywhere `county` shows up in the code can be changed to `state` as long as the index is changed as per bullet point 3.
     - It is important the following code should also be changed for the sake of the output
     ```
